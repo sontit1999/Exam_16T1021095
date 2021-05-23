@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ExamDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-Q6EAEVP\SQLEXPRESS;Initial Catalog=ExamDB;Integrated Security=True" SettingsObjectName="Exam_16T1021095_DataLayers.Properties.Settings" SettingsPropertyName="ExamDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.UserAccount" Member="UserAccounts">
+    <Type Name="UserAccount">
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
